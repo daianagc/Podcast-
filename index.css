@@ -2,11 +2,12 @@
      margin: 0;
      padding: 0;
      font-family: 'IBM Plex Sans', monospace;
+     
 }
 
 header {
    height: 100px;
-   background-color: #fafafa;
+   background-color: white;
    padding: 0 50px;
    display: flex;
    justify-content: space-between;
@@ -41,13 +42,87 @@ header {
 }
 
 .menu a:hover, .mostrar-menu:hover, .esconder-menu:hover{
-     color: aqua ;
+     color: rgb(0, 243, 187);
      text-decoration: line-through;
 }
 
 #check{
      display: none; /*quita todos los checkbox */
 }
+
+/*SECTION PRINCIPAL*/
+
+#principal{
+     margin: 111px 72px;
+     width: 782px;
+     height: 36vh;
+     padding: 0 50px;
+     font-size: 41px;
+     font-weight: normal;
+     font-family: 'IBM Plex Sans', sans-serif;
+     display: flex;
+     align-items: center;
+     background-color: white;
+}
+
+.container-principal {
+     position: relative;
+     font-weight: 400;
+     color: #060A24 ; 
+     display: flex;
+     flex-direction: column;
+     align-items: unset;
+     width: 741px;
+  }
+
+  .container-principal h1{
+     font-weight: 400;
+     
+  }
+
+
+  
+
+.container-principal p {
+     width: 94%;
+     margin: 10px 2px;
+     font-family: "IBM Plex Mono", monospace;
+     font-size: 18px;
+     font-weight: 100;
+     margin-bottom: 40px;
+     content: icon;
+     
+
+}
+
+
+#boton {
+  cursor: pointer;
+  height: 56px;
+  width: 226px;
+  text-decoration: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgb(0, 243, 187);
+
+}
+
+#boton:hover{
+     background: linear-gradient(#0000FE , #00F0B8);
+     color: white;
+}
+
+
+/*SECTION ESPISODIOS*/
+
+svg {
+     width: 100%;
+     height: 10vw; }
+
+
+
+
 
 /* RESPONSIVE */
 
@@ -56,11 +131,13 @@ header {
      .mostrar-menu, .esconder-menu {
           display: block;
      }
+    
+
 
      .menu{
           position: fixed;
           width: 100%;
-          height: 100vh;
+          height: 10%;
           background: #0000EC;
           right: -100%; 
           top: 0;
@@ -69,25 +146,39 @@ header {
           z-index: 100;
           transition: 0.8s;
           
+          
      }
 
      .menu a{
+          width: 100%;
+          height: 40%;
           color: #fafafa;
           display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          padding: 10px;
+          padding: 5px;
+          font-size: 1.2em;
+     
+         
      }
 
      .esconder-menu{
           position: absolute;
-          top: 40px;
-          right: 40px;
+          top: 10px;
+          right: 20px;
      }
 
      #check:checked ~ .menu{
           right: 0;
      }
+
+     .menu a:hover{
+          text-decoration: none;
+           background-color: rgb(0, 243, 187);
+     }
+
+     .mostrar-menu:hover, .esconder-menu:hover{
+     text-decoration: none;
+    
+
+     }
+
 }
-
-
