@@ -145,11 +145,11 @@ h2{
 
 .container-episodios{
      height: 100vh;
-     width: 100%;
+     width: 99%;
      display: grid;
      grid-template-columns: repeat(2, 1fr); /*dos columnas y un mismo ancho*/
      grid-auto-rows: 303px;
-     padding: 53px;
+     padding: 44px;
      margin: 0.4px 10px;
      
 }
@@ -161,7 +161,7 @@ iframe {
 
 .section-content {
      position: relative;
-     height: 40vh;
+     height: 0;
      overflow: hidden;
    }
    
@@ -181,7 +181,42 @@ iframe {
      color: white;
 }
 
+/*SECTION PHONE*/
 
+.phone {
+     width: 100%;
+     height: 1vh;
+     display: flex;
+     justify-content: space-around;
+   
+}
+
+.img-phone {
+     position: relative;
+     margin: -95px 40px;
+     padding: 0px;
+     
+     
+}
+
+#dedonde {
+     position: relative;
+     width: 56%;
+     height: 58%;
+     margin: 216px 2px;
+}
+
+h3 {
+ font-size: 3rem;
+ font-family: "IBM Plex Mono", monospace;
+
+}
+
+#section-text {
+     margin: 10px 10px;
+     font-size: 20px;
+     font-family: "IBM Plex Mono", monospace;
+}
 
 
 /* RESPONSIVE */
