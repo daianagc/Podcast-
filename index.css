@@ -5,6 +5,14 @@
      
 }
 
+p { 
+     font-family: "IBM Plex Mono", monospace;
+     text-align: start;
+     font-size: 18px;
+}
+
+
+
 header {
    height: 100px;
    background-color: white;
@@ -131,8 +139,9 @@ svg {
 h2{
    color: white;
    font-family: "IBM Plex Mono", monospace;
-   margin: 50px 50px;
-   font-size: 2em;  
+   margin: 38px 115px;
+   font-size: 2.5em;  
+   font-weight: 400;
 }     
 
 #episodios {
@@ -186,41 +195,81 @@ iframe {
 
 .phone {
      width: 100%;
-     height: 1vh;
+     height: 100vh;
      display: flex;
      justify-content: space-around;
    
 }
 
 .img-phone {
+     width: 16%;
      position: relative;
-     margin: -95px 40px;
+     margin: -63px 40px;
      padding: 0px;
+     object-fit: scale-down;
      
-     
+}
+
+.img-phone img {
+     width: 450px; /*cambio el tamaño de la imagen*/
+     height: 660px;
 }
 
 #dedonde {
      position: relative;
-     width: 56%;
+     width: 41%;
      height: 58%;
-     margin: 216px 2px;
+     margin: 220px 46px;
+     transform: translateY(-123px);
 }
 
 h3 {
  font-size: 3rem;
  font-family: "IBM Plex Mono", monospace;
+ font-weight: 400;
+ margin: 10px 0px;
 
 }
 
-#section-text {
+/* SECTION-INVITADAS */
+
+h4{
      text-align: left;
-     margin: 10px 0px;
-     padding: 5%;
-     font-size: 20px;
+     font-size: 2rem;
      font-family: "IBM Plex Mono", monospace;
+     font-weight: 400;
+
+
 }
 
+#invitadas{
+     width: 100vw;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria {
+     display: flex;
+     flex-direction: column;
+     flex-flow: row wrap;
+     align-items: center;
+}
+
+.galeria .imagen{
+     display: flex;
+     flex-grow: 1;
+}
+
+.galeria .imagen img {
+     width: 480px;
+     height: 300px;
+     flex-grow: 1;
+}
+
+
+ 
+     
 
 /* RESPONSIVE */
 
