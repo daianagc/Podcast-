@@ -195,7 +195,7 @@ iframe {
 
 .phone {
      width: 100%;
-     height: 80vh;
+     height: 130vh;
      display: flex;
      justify-content: space-around;
    
@@ -235,8 +235,8 @@ h3 {
 
 h4{
      position: relative;
-     top: -3rem;
-     right: 500px;
+     top: -2rem;
+     right: 300px;
      font-size: 2.5rem;
      font-family: "IBM Plex Mono", monospace;
      font-weight: 400;
@@ -265,7 +265,7 @@ h4{
 }
 
 .galeria .imagen img {
-     width: 480px;
+     width: 490px;
      height: 305px;
      flex-grow: 1;
 }
