@@ -270,6 +270,48 @@ h4{
      flex-grow: 1;
 }
 
+/*SECTION TEMAS*/
+
+.temas{
+     width: 100%;
+     height: 40vw;
+
+}
+
+h5 {
+     margin: 47px 282px;
+     font-size: 2.5rem;
+     font-family: "IBM Plex Mono", monospace;
+     font-weight: 400;
+
+}
+
+.container-icons {
+     width: 60%;
+     height: 40%;
+     margin: 10px 261px;
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+/*ULTIMA SECTION*/
+
+.ultimasection{
+     width: 100vw;
+     height: 500%;
+     background-color: #0000EC;
+  
+}
+
+svg {
+          margin: 0px 0px;
+          width: 100%;
+          height: 10vw; 
+}
+
+
 
  
      
