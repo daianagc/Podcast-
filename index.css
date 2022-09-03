@@ -118,7 +118,7 @@ header {
 }
 
 .container-principal p::before {
-     content: "Un podcast que explora el mundo de la programación.";
+     content: "Un podcast que explora el mundo de la programación y la tecnologia.";
 }
 
 
@@ -165,7 +165,7 @@ h2{
 } 
 
 .container-episodios{
-     height: 116vh;
+     height: 157vh;
      display: grid;
      grid-template-columns: repeat(2, 1fr); /*dos columnas y un mismo ancho*/
      grid-auto-rows: 303px;
@@ -207,7 +207,7 @@ iframe {
 
 .phone {
      width: 100%;
-     height: 100vh;
+     height: 76vh;
      display: flex;
      justify-content: space-around;
    
@@ -285,14 +285,14 @@ h4{
 /*SECTION TEMAS*/
 
 #temas{
-     width: 100%;
-     height: 20vw;
+     width: 130%;
+     height: 24vw;
 
 }
 
 h5 {
-     margin: 47px 282px;
-     font-size: 2.5rem;
+     margin: 89px 220px;
+     font-size: 5rem;
      font-family: "IBM Plex Mono", monospace;
      font-weight: 400;
 
@@ -306,6 +306,15 @@ h5 {
      display: flex;
      justify-content: space-between;
      align-items: center;
+}
+
+.container-icons p {
+     font-family: 'IBM Plex Sans', sans-serif;
+     font-size: 24px;
+     font-weight: 600;
+     margin-top: 13px;
+     text-align: center;
+     margin: 5px -33px;
 }
 
 /*ULTIMA SECTION*/
@@ -324,9 +333,10 @@ svg {
 }
 
 h6 {
+     width: 100%;
      color: #fafafa;
-     margin: 47px 360px;
-     font-size: 2.5rem;
+     margin: 50px 546px;
+     font-size: 8em;
      font-family: "IBM Plex Mono", monospace;
      font-weight: 400;
 }
@@ -375,15 +385,15 @@ footer{
 
 /* RESPONSIVE */
 
-@media(max-width: 1400px) {
+@media(max-width: 1440px) {
      /*section temas*/
 
      .container-episodios{
-          height: 93vh;
+          height: 130vh;
      }
   
      .phone {
-          height: 97vh;
+          height: 120vh;
      }
 
   h5 {
@@ -421,8 +431,22 @@ footer{
 }
 
 
+@media(max-width: 892px) {
+     #episodios{
+          background-image: linear-gradient(180deg, #0000FF 0%, #0000A3 100%);
+          width: 105vw;
+          height: 500%;
+     }
+
+}
+
 
 @media(max-width: 768px) {
+
+     #episodios{
+         
+     }
+
      /* HEADER */
      .mostrar-menu, .esconder-menu {
           display: block;
@@ -476,5 +500,7 @@ footer{
     
 
      }
+
+     .
 
 }
