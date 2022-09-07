@@ -19,9 +19,10 @@ p {
 
 
 header {
-   height: 100px;
+   width: 97%;
+   height: 44px;
+   padding: 10px 0%;
    background-color: white;
-   padding: 0 50px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -30,7 +31,7 @@ header {
 
 #logo { 
      cursor: pointer;
-     margin: 10px 10px;
+     margin: 10px 68px;
      width: 38px;
      height: 50px;
 }
@@ -165,7 +166,7 @@ h2{
 } 
 
 .container-episodios{
-     height: 157vh;
+     height: 121vh;
      display: grid;
      grid-template-columns: repeat(2, 1fr); /*dos columnas y un mismo ancho*/
      grid-auto-rows: 303px;
@@ -207,7 +208,7 @@ iframe {
 
 .phone {
      width: 100%;
-     height: 76vh;
+     height: 112vh;
      display: flex;
      justify-content: space-around;
    
@@ -286,22 +287,22 @@ h4{
 
 #temas{
      width: 130%;
-     height: 24vw;
+     height: 28vw;
 
 }
 
 h5 {
-     margin: 89px 220px;
-     font-size: 5rem;
+     margin: 89px 91px;
+     font-size: 3rem;
      font-family: "IBM Plex Mono", monospace;
      font-weight: 400;
 
 }
 
 .container-icons {
-     width: 60%;
-     height: 40%;
-     margin: 10px 261px;
+     width: 56%;
+     height: 37%;
+     margin: 10px 132px;
      padding: 10px;
      display: flex;
      justify-content: space-between;
@@ -320,35 +321,25 @@ h5 {
 /*ULTIMA SECTION*/
 
 .ultimasection{
-     width: 134vw;
+     width: 100vw;
      height: 800%;
      background-color: #0000EC;
   
 }
 
 svg {
-          margin: 0px 0px;
+          margin: -1px 0px;
           width: 100%;
-          height: 10vw; 
+          height: 7vw; 
 }
-
-.contenedor-novedades{
-    width: 70%;
-    height: 80%;
-    margin: 30px 80px;
-    text-align: center;
-
-}
-
 
 h6 {
      width: 100%;
      color: #fafafa;
-     margin-bottom: 40px;
-     font-size: 2em;
+     margin: 68px 300px;
+     font-size: 2.5em;
      font-family: "IBM Plex Mono", monospace;
      font-weight: 400;
-
 }
 
 .button {
@@ -361,7 +352,6 @@ h6 {
      cursor: pointer;
      height: 56px;
      width: 300px;
-     padding: 10px;
      text-decoration: none;
      border: none;
      font-size: 18px;
@@ -374,7 +364,7 @@ h6 {
      color: white;
 }
 
-/*FOOTER*/
+/*FOOTER REDES*/
 
 footer{
      display: flex;
@@ -396,69 +386,13 @@ footer{
 
 /* RESPONSIVE */
 
-@media(max-width: 1440px) {
-     /*section temas*/
-
-     .container-episodios{
-          height: 130vh;
-     }
-  
-     .phone {
-          height: 120vh;
-     }
-
-  h5 {
-     font-size: 1.8em;
-   }
-
-   .container-icons {
-     width: 50%;
-     margin: 0px 233px;
-   }
-
-   h6{
-     font-size: 1.5em;
-     margin: 50px 470px;
-   }
-
-   .button {
-     height: 20vh;
-   }
-
-}
-
-@media(max-width: 1053px) {
-    
-     h4{
-          font-size: 2rem;
-          right: 150px;
-     }
-    
-     h6{
-          text-align: center;
-     }
-
-
-}
-
-
-@media(max-width: 892px) {
-     #episodios{
-          background-image: linear-gradient(180deg, #0000FF 0%, #0000A3 100%);
-          width: 105vw;
-          height: 500%;
-     }
-
-}
 
 
 @media(max-width: 768px) {
 
-     #episodios{
-         
-     }
 
-     /* HEADER */
+     /* HEADER-MENU HAMBURGUESA */
+
      .mostrar-menu, .esconder-menu {
           display: block;
      }
@@ -511,7 +445,3 @@ footer{
     
 
      }
-
-     
-
-}
